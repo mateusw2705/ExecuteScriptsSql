@@ -8,7 +8,7 @@ namespace ExecuteSQLScriptsApp
     {
         static void Main(string[] args)
         {
-            string connectionString = "Data Source=DESKTOP-61PN5C8\\SQLEXPRESS;Initial Catalog=EasyNFe;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True"; // Substitua pela sua string de conexão
+            string connectionString = "Data Source=server;Initial Catalog=EasyNFe;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True"; // Substitua pela sua string de conexão
             string scriptsFolder = @"C:\Users\w10\Desktop\Nova pasta\ScriptsInsert"; // Substitua pelo caminho da sua pasta de scripts
 
             string[] scriptFiles = Directory.GetFiles(scriptsFolder, "*.sql");
